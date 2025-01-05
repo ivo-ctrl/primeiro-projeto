@@ -126,14 +126,16 @@ ul li a:hover{
 
 }
 #social-links{
-
+   
 display: flex;
 justify-content: center;
+align-items: center;
 
 padding:24px 0 ;
 font-size: 24px
 }
 #social-links a{
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -148,13 +150,13 @@ font-size: 24px
    
 }
 footer {
-
-    /*border: 1px solid red;*/
-    padding: 24px 0;
+   
+  
+    padding: 24px 16px;
     text-align: center;
-    text-decoration: underline;
-    font-size: 14px;
-
+    /*text-decoration: underline;*/
+    font-size: 15px;
+ 
 }
 @media (min-width 700px) {
     :root {
