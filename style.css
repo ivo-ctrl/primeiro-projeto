@@ -6,22 +6,22 @@
 }
 :root {
     --text-color: white;
-    --bg-url: url(./imganes/bg-mobile.jpg);
+    --bg-url: url(./imagens/bg-mobile.jpg);
     --stroke-color:rgba(255, 255, 255, 0.5);
     --surface-color: rgba(255, 255, 255, 0.05);
     --surface-color-hover:rgba(0, 0, 0, 0.2);
     --highlight-color:rgba(255, 255, 255, 0.2);
-    --switch-bg-url: url(./imganes/mon-star.svg);
+    --switch-bg-url: url(./imagens/mon-star.svg);
 }
 .light {
 
     --text-color: black;
-    --bg-url: url(./imganes/bg-mobile-light.jpg);
+    --bg-url: url(./imagens/bg-mobile-light.jpg);
     --stroke-color:rgba(0, 0, 0, 0.5);
     --surface-color:rgba(0, 0, 0, 0.05);
     --surface-color-hover:rgba(0, 0, 0, 0.2);
     --highlight-color:rgba(0, 0, 0, 0.1);
-    --switch-bg-url: url(./imganes/sun.svg);
+    --switch-bg-url: url(./imagens/sun.svg);
 }
 
 body *{
@@ -33,7 +33,8 @@ body{
     background: var(--bg-url)no-repeat top center/cover;
 }
 #container { 
-    width: 360px;
+    width: 100;
+    max-width: 588px;
    margin: 56px auto 0px;
 
   
